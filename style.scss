@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  height: 15vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @media (max-width: 550px) {
+    flex-direction: column;
+    height: 25vh;
+  }
+  @media (max-width: 400px) {
+    flex-direction: column;
+    height: 20vh;
+  }
+}
+.boxLogo {
+  // border: 2px solid red;
+  display: flex;
+  align-items: center;
+  width: 25vw;
+  @media (max-width: 800px) {
+    width: 30vw;
+  }
+  @media (max-width: 550px) {
+    flex-direction: column;
+    width: 100%;
+  }
+  h1 {
+    color: white;
+    font-size: 1.7vw;
+    @media (max-width: 800px) {
+      font-size: 2.5vw;
+    }
+    @media (max-width: 550px) {
+      font-size: 4.5vw;
+    }
+  }
+  img {
+    width: 6.5vw;
+    @media (max-width: 800px) {
+      width: 8vw;
+    }
+    @media (max-width: 550px) {
+      width: 15vw;
+    }
+  }
+}
+nav {
+  width: 40vw;
+  // border: solid 2px yellow;
+  @media (max-width: 800px) {
+    width: 45vw;
+  }
+  @media (max-width: 550px) {
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    @media (max-width: 800px) {
+      font-size: 2.2vw;
+    }
+    @media (max-width: 550px) {
+      justify-content: space-evenly;
+      font-size: 3.8vw;
+    }
+    a {
+      color: white;
+    }
+  }
+}
+// -----------main-------------
+.box1 {
+  height: 60vh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @media (max-width: 550px) {
+    flex-direction: column-reverse;
+    height: 70vh;
+    justify-content: space-evenly;
+  }
+  p {
+    width: 30vw;
+    font-size: 1.5vw;
+    text-align: justify;
+    @media (max-width: 800px) {
+      font-size: 2vw;
+      width: 40vw;
+    }
+    @media (max-width: 550px) {
+      font-size: 3vw;
+      width: 80vw;
+    }
+  }
+  img {
+    width: 25vw;
+    @media (max-width: 800px) {
+      width: 35vw;
+    }
+    @media (max-width: 550px) {
+      width: 55vw;
+    }
+  }
+}
+.box2 {
+  height: 60vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @media (max-width: 550px) {
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-evenly;
+  }
+  p {
+    width: 30vw;
+    font-size: 1.5vw;
+    text-align: justify;
+    @media (max-width: 800px) {
+      font-size: 2vw;
+      width: 35vw;
+    }
+    @media (max-width: 550px) {
+      font-size: 3vw;
+      width: 80vw;
+    }
+  }
+  img {
+    width: 30vw;
+    @media (max-width: 800px) {
+      width: 40vw;
+    }
+    @media (max-width: 550px) {
+      width: 70vw;
+    }
+  }
+}
+.box3 {
+  height: 55vh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  @media (max-width: 550px) {
+    display: table;
+    text-align: center;
+    height: 60vh;
+  }
+  img {
+    width: 15vw;
+    @media (max-width: 800px) {
+      width: 20vw;
+    }
+    @media (max-width: 550px) {
+      width: 40vw;
+    }
+  }
+}
+// --------footer--------
+.sectionFooter {
+  height: 20vh;
+  width: 100vw;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  @media (max-width: 800px) {
+    height: 30vh;
+  }
+  @media (max-width: 550px) {
+    flex-direction: column;
+    height: 40vh;
+  }
+  div {
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @media (max-width: 550px) {
+      width: 50vw;
+    }
+    img {
+      width: 4vw;
+      @media (max-width: 800px) {
+        width: 6vw;
+      }
+      @media (max-width: 550px) {
+        width: 8vw;
+      }
+    }
+  }
+  ul {
+    text-align: center;
+    width: 50vw;
+    color: white;
+    font-size: 1.2vw;
+    @media (max-width: 800px) {
+      width: 55vw;
+      font-size: 2vw;
+    }
+    @media (max-width: 550px) {
+      width: 85vw;
+      font-size: 3.2vw;
+    }
+  }
+  img {
+    width: 8vw;
+    @media (max-width: 800px) {
+      width: 12vw;
+    }
+    @media (max-width: 550px) {
+      width: 16vw;
+    }
+    
+  }
+}
