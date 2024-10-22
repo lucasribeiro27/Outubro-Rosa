@@ -255,7 +255,7 @@ nav ul a {
   }
 }
 .sectionFooter div img {
-  width: 4vw;
+  width: 3vw;
 }
 @media (max-width: 800px) {
   .sectionFooter div img {
@@ -286,7 +286,7 @@ nav ul a {
   }
 }
 .sectionFooter img {
-  width: 8vw;
+  width: 6vw;
 }
 @media (max-width: 800px) {
   .sectionFooter img {
